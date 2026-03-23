@@ -2,8 +2,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
 import os
-from dotenv import load_dotenv 
-load_dotenv("backend/.env")
+
 from groq import Groq 
 
 
